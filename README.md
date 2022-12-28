@@ -1,5 +1,7 @@
 # graficos-venda
-Exemplo de página web com gráficos para apresentação de dados relacionados a vendas.
+Página criada utilizando Javascript e a biblioteca Chart.js. Para estilização foi utilizado o Bootstrap.
+
+Abaixo algumas imagens dela em funcionamento:
 
 ![image](https://user-images.githubusercontent.com/67706272/209849769-7eb169bb-7c57-4715-978d-b357899cb9f7.png)
 
