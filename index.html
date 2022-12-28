@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charts</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <h7>Vendedores</h7>
+                <select id="vendedoresSelect" class="form-select form-select-lg" aria-label="Default select example">
+                    <option selected>Selecione</option>
+                  </select>
+            </div>
+            <div class="col-3">
+                <h7>Produtos</h7>
+                <select id="produtosSelect" class="form-select form-select-lg" aria-label="Default select example">
+                    <option selected>Selecione</option>
+                  </select>
+            </div>
+            <div class="col-3">
+                <h7>Meses</h7>
+                <select id="mesesSelect" class="form-select form-select-lg" aria-label="Default select example">
+                    <option selected>Selecione</option>
+                  </select>
+            </div>
+            <div class="col-3" style="margin-top: 23px;">
+                <button id="buttonFiltrar" type="button" class="btn btn-primary btn-lg btn-block">Filtrar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="row" style="margin-top: 70px;">
+                    <h3>Vendas Por Vendedor</h3>
+                    <canvas id="vendasPorVendedor"></canvas>
+                </div>
+                <div class="row"  style="margin-top: 70px;">
+                    <h3>Vendas Mensais</h3>
+                    <canvas id="vendasMensais"></canvas>
+                </div>
+            </div>
+            <div class="col-6" style="margin-top: 70px;">
+                <h3>Vendas Por Produto</h3>
+                <canvas  id="produtosChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./js/index.js"></script>
+    <script type="text/javascript" src=""></script>
+</body>
+</html>
